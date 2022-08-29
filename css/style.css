@@ -1,0 +1,140 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.head_title {
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-color:rgb(163, 133, 137);
+    height: auto;
+}
+
+
+/*#region Title */ 
+
+
+.sub_title1 {
+    position: relative;
+    margin-left: auto;
+    margin-top: -4px;
+    margin-bottom: 0px;
+    background-color: orange;
+    color: black;
+    width: 120px;
+    text-align: center;
+    border: solid;
+    border-color: brown;
+    border-width: 4px;
+}
+
+.sub_title2 {
+    position: relative;
+    margin-left: auto;
+    margin-top: -4px;
+    margin-bottom: 0px;
+    background-color: rgb(55, 52, 64);
+    color: rgb(221, 10, 38);
+    width: 120px;
+    text-align: center;
+    border: solid;
+    border-color: brown;
+    border-width: 4px;
+}
+
+.sub_title3 {
+    position: relative;
+    margin-left: auto;
+    margin-top: -4px;
+    margin-bottom: 0px;
+    background-color: rgb(229, 218, 218);
+    width: 120px;
+    text-align: center;
+    border: solid;
+    border-color: brown;
+    border-width: 4px;
+}
+
+/*#endregion */
+
+/*#region Main */
+
+.box1, .box2, .box3 {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(78, 120, 120);
+    width: 470px;
+    height: 200px;
+    border: solid;
+    border-color: brown;
+    border-width: 4px;
+}
+
+@media (min-width: 992px) {
+    .box1 {
+        width: 30%;
+        height: auto;
+    }
+    .box2 {
+        width: 30%;
+        height: auto;
+    }
+    .box3 {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    .box1 {
+        width: 45%;
+        height: auto;
+    }
+    .box2 {
+        width: 45%;
+        height: auto;
+    }
+    .box3 {
+        width: 94%;
+        height: auto;
+    }
+}
+
+@media (max-width:767px) {
+    .box1 {
+        width: 93%;
+        height: auto;
+    }
+    .box2 {
+        width: 93%;
+        height: auto;
+    }
+    .box3 {
+        width: 93%;
+        height: auto;
+    }
+}
+
+/*#endregion */
+
+/*#region Text */
+
+.description_text {
+    font-size: large;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/*#endregion */
+
+
